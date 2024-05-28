@@ -1,9 +1,30 @@
 import os
 import pandas as pd
+import zipfile
+import os
+
+def unzip_files(source_dir, dest_dir):
+    # Ensure the destination directory exists
+    if not os.path.exists(dest_dir):
+        os.makedirs(dest_dir)
+
+    # Loop through all files in the source directory
+    for item in os.listdir(source_dir):
+        if item.endswith('.zip'):
+            file_path = os.path.join(source_dir, item)
+            with zipfile.ZipFile(file_path, 'r') as zip_ref:
+                zip_ref.extractall(dest_dir)
+            print(f'Unzipped {item} into {dest_dir}')
+
+# Define source and destination directories
+source_directory = r"path\to\source\folder"
+folder_path = r"path\to\raw_data\folder"
+
+# Call the function to unzip files
+unzip_files(source_directory, folder_path)
 
 
 bill_template_file = r"path\to\bill_template.xlsx"
-folder_path = r"path\to\raw_data.xlsx"
 
 bill_template = pd.read_excel(bill_template_file, sheet_name=None, header=None)
 
