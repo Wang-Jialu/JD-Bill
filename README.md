@@ -25,4 +25,4 @@ This code is designed to help reconcile AP (Accounts Payable) and AR (Accounts R
 
 It extracts and formats tracking numbers from Excel and CSV files, then identifies common tracking numbers and those unique to the receivables. The results are summarized in an Excel file, with separate sheets for common and unique data, and categorized based on file content.
 
-These tools collectively enhance the efficiency and accuracy of the billing process, enabling the finance department to handle customer invoices quickly and accurately. Each script and notebook is designed to perform specific tasks that contribute to a streamlined workflow, reducing manual effort and minimizing errors.
+### These tools collectively enhance the efficiency and accuracy of the billing process, enabling the finance department to handle customer invoices quickly and accurately. Each script and notebook is designed to perform specific tasks that contribute to a streamlined workflow, reducing manual effort and minimizing errors.
