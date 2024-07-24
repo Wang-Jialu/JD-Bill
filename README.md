@@ -9,7 +9,7 @@ The script also splits the merged summary file by customer names, saving each cu
 
 Key functions include listing files in a folder, counting sheets in an Excel file, cleaning text, converting waybill numbers to strings, and performing fee calculations for FedEx-O shipments. The script processes all folders in the current directory by default but can be adapted to handle a specific folder if needed.
 
-### 2. [Enhanced Revenue and cost Analysis](https://github.com/Wang-Jialu/JD-Bill/blob/main/merge_split_accounts_receivable.ipynb)
+### 2. [Enhanced Revenue and Cost Analysis](https://github.com/Wang-Jialu/JD-Bill/blob/main/merge_split_accounts_receivable.ipynb)
 This Python script is similar to the previous version but includes key enhancements. It still processes spreadsheets from various last-mile carriers, merging data and calculating fees. However, it now differentiates between self-operated and non-self-operated warehouses by mapping account numbers to warehouse locations for UPS carrier. Additionally, it summarizes revenue and costs for each carrier and generates a consolidated report, providing a detailed analysis by customer and warehouse location.
 
 ### 3. [Customer Warehouse Billing Data Formatting](https://github.com/Wang-Jialu/JD-Bill/blob/main/change_format.py)
