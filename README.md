@@ -3,7 +3,7 @@
 
 
 ### 1. merge_split_for_accountants.ipynb:
-（https://github.com/Wang-Jialu/JD-Bill/blob/main/merge_split_for_accountants.ipynb）
+(https://github.com/Wang-Jialu/JD-Bill/blob/main/merge_split_for_accountants.ipynb)
 This Python script processes spreadsheets from various last-mile carriers, each stored in separate folders. It first merges the Excel files within each folder to create a monthly summary for each carrier. For FedEx-O shipments, it calculates the receivable amount using a rate card and maps shipping zip codes to warehouse locations based on a zip code-to-warehouse mapping.
 
 The script also splits the merged summary file by customer names, saving each customer's data into individual folders named after the customers, consolidating their last-mile products into a single file. To improve performance, it uses multithreading for reading and processing multiple files concurrently.
