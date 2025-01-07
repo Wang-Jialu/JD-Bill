@@ -27,7 +27,7 @@ It extracts and formats tracking numbers from Excel and CSV files, then identifi
 These tools collectively enhance the efficiency and accuracy of the billing process, enabling the finance department to handle customer invoices quickly and accurately. Each script and notebook is designed to perform specific tasks that contribute to a streamlined workflow, reducing manual effort and minimizing errors.
 
 ### Using Google Colab
-Formatting: [Colab Notebook Link](https://colab.research.google.com/drive/19GiDYlWBpogcqy3ZcJeYPl8Y_e_EDpXa#scrollTo=8Yn-M4kk0lr5)
-Last mile: [Colab Notebook Link](https://colab.research.google.com/drive/1jlij44BHvRO_lv-SE92_8c1iH4-1tXnq#scrollTo=ZXchSWlKn1T0)
-Tra*****： [Colab Notebook Link](https://colab.research.google.com/drive/1zZybjjFrtU-Pt_FAUFE6Sfzx7qkBRmQg#scrollTo=FY9oVjUM2qdB)
+Formatting: [Colab Notebook Link](https://colab.research.google.com/drive/19GiDYlWBpogcqy3ZcJeYPl8Y_e_EDpXa#scrollTo=8Yn-M4kk0lr5)  
+Last mile: [Colab Notebook Link](https://colab.research.google.com/drive/1jlij44BHvRO_lv-SE92_8c1iH4-1tXnq#scrollTo=ZXchSWlKn1T0)  
+Tra*****： [Colab Notebook Link](https://colab.research.google.com/drive/1zZybjjFrtU-Pt_FAUFE6Sfzx7qkBRmQg#scrollTo=FY9oVjUM2qdB)  
 
